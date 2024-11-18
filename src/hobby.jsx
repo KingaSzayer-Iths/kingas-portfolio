@@ -70,12 +70,15 @@ function Hobby() {
     <button className="carousel-button prev" onClick={prevSlide}>&#10094;</button>
     <button className="carousel-button next" onClick={nextSlide}>&#10095;</button>
     </div>
-  
     </div>
-  
     <div id="back-button">
     <Link  to="/hobbys"><img width="32px" src={arrowUp} alt="Back button " />Back</Link>
     </div>
+    <style jsx>{
+    `#fab {
+      display:none;
+    }`
+    }</style>
     </>
     
   }

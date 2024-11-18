@@ -69,6 +69,13 @@ function Project() {
   <div id="back-button">
   <Link  to="/projects"><img width="32px" src={arrowUp} alt="Back button " />Back</Link>
   </div>
+
+  <style jsx>{
+    `#fab {
+      display:none;
+    }`
+
+    }</style>
   </>
   
 }

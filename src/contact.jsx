@@ -41,6 +41,12 @@ function Contact() {
     </section>
     </div>
     {/* </div> */}
+
+    <style jsx>{
+    `#fab {
+      display:none;
+    }`
+    }</style>
   </>
 }
 
