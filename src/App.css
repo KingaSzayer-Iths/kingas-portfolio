@@ -291,8 +291,7 @@ a:hover {
   box-shadow: 1px 5px #6cc7feb3, 0 0 25px lightgrey, 0 0 5px rgb(71, 70, 70);
   margin: 0 0 40px 0;
   border-radius: 20px;
-  padding: 20px;
-  margin: 20px 0;
+  padding: 20px 0 40px 30px;
 }
 
 
@@ -300,12 +299,14 @@ a:hover {
 .job h2 {
   /* color: #ff6be1; */
   color: rgb(247, 160, 242);
+  margin: 40px 0 0 0;
 }
 
 .edu h3,
 .job h3 {
   /* font-style: italic; */
   text-decoration: underline;
+  margin-top: 10px;
 }
 
 .job h4 {

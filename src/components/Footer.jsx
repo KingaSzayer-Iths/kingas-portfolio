@@ -17,6 +17,11 @@ const Footer = () => {
         </a> */}
      </div>
     
+     <style jsx>{
+    `#fab {
+      display: none;
+    }`
+    }</style>
     </>
   }
   
