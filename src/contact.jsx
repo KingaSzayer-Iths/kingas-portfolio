@@ -23,7 +23,10 @@ function Contact() {
     <div className="contact-info">
     <div>
     <p><strong><img width="20px"src={email} alt="E-mail icon" />E-post:</strong></p>
-    <p>kingaszayer@gmail.com</p>
+    {/* <p>kingaszayer@gmail.com</p> */}
+
+    <a href='mailto:kingaszayer@gmail.com'>kingaszayer@gmail.com</a>
+
     </div>
     <div>
     <p><strong><img width="20px"src={phone} alt="Phone icon" />Telefon:</strong></p>

@@ -478,7 +478,7 @@ flex: 1;
   /* letter-spacing: 1px; */
 }
 .contact-header h1 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 34px;
 }
 
@@ -576,7 +576,7 @@ flex: 1;
   flex-direction: row;
   /* justify-content: center; */
   gap: 30px;
-  /* margin: 0 280px 0 0px; */
+  margin: 0 30px 0 0px;
 }
 /* .skill-group ul {
 } */
@@ -1556,6 +1556,11 @@ ul {
 @media only screen and (max-width:480px) {
 
 
+  .edu,
+  .job {
+    padding: 20px 10px 40px 20px;
+  }
+
   .project-flex {
     text-align: center;
     margin: 50px 20px;
@@ -1844,7 +1849,7 @@ ul {
   .skill-group {
     align-items: center;
     gap: 10px;
-    margin-top: 10px;
+    margin: 10px 0px 0 0px;
     /* flex-direction: column; */
     /* gap: 1.2rem; */
     /* justify-content: center; */
@@ -1949,7 +1954,7 @@ ul {
     margin: 10px 30px;
   }
   .contact-header h1 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 28px;
   }
 

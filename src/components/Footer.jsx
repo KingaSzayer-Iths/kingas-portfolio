@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import arrowUp from "../icons/arrow-up.png"
 // import arrowUp from "../images/arrow-up32x32.png"
 
@@ -16,12 +16,51 @@ const Footer = () => {
         <p>Upp</p>
         </a> */}
      </div>
-    
+
+{/* const ScrollButton = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    if (window.scrollY > 200) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+  return (
+    <button 
+    className={`scroll-button ${isVisible ? "show" : "hide"}`}
+    onClick={scrollToTop}
+    >
+
+    </button>
+  );
+
+}
+
+export default ScrollButton */}
+
+
+
+{/*     
      <style jsx>{
     `#fab {
       display: none;
     }`
-    }</style>
+    }</style> */}
     </>
   }
   
