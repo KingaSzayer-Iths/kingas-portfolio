@@ -19,7 +19,7 @@ function Hobbys() {
   let oldPortfolio = {
       "name":"Portfolio",
       "shortDescription":"GraphQL",
-      "longDescription":"Min tidigare porfolio, skapad med React och Gatsby där jag integrerade Contentful för dynamiskt innehållshantering och använde GraphQL för effektiva dataförfrågningar. Designen är handkodad i HTML och CSS för att ge en stillren och användarvänlig upplevelse.",
+      "longDescription":"Min tidigare porfolio, skapad med React och Gatsby där jag integrerade Contentful för dynamiskt innehållshantering och använde GraphQL för effektiva dataförfrågningar. Designen är kodad i HTML och CSS för att ge en stillren och användarvänlig upplevelse.",
       "images": [
           "./images/portfolio_homepage1_old.webp",
           "./images/portfolio_homepage2_old.webp",

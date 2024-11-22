@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import bild from './images/portfolio_home.webp'
 // import bild2 from './images/portfolioimage2.png'
 import email from './icons/email.png'
@@ -8,6 +8,22 @@ import linkedin from './icons/linkedin.png'
 import github from './icons/github.png'
 
 function Contact() {
+
+  const mail = "kingaszayer@gmail.com";
+  const [copySuccess, setCopySuccess] = useState(false);
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(mail)
+    .then(() => {
+      setCopySuccess(true);
+      setTimeout (() => setCopySuccess(false), 2000);
+    })
+    .catch((err) => {
+      console.error("Failed to copy text: ", err);
+    });
+  };
+  
+
   return <>
     <div className="contact-me">
     <div className="contact-header">
@@ -24,10 +40,21 @@ function Contact() {
     <div>
     <p><strong><img width="20px"src={email} alt="E-mail icon" />E-post:</strong></p>
     {/* <p>kingaszayer@gmail.com</p> */}
+    {/* <a href='mailto:kingaszayer@gmail.com'>kingaszayer@gmail.com</a> */}
 
-    <a href='mailto:kingaszayer@gmail.com'>kingaszayer@gmail.com</a>
+    <a href={`mailto:${mail}`}>{mail}</a>
 
+   
+    <button className="copy-button-icon" onClick={copyToClipboard}>Copy</button>
+   
+    
     </div>
+
+    {copySuccess && (
+      <p className="copy-button-ok">Email copied to clipboard!</p>
+    )}
+    
+
     <div>
     <p><strong><img width="20px"src={phone} alt="Phone icon" />Telefon:</strong></p>
     <p>+46 707466819</p>
