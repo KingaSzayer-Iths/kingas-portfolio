@@ -104,7 +104,7 @@ function Home() {
   
   </div>
   <div className="image-prestanda">
-  <img width="100%" src={bildprestanda} alt="bild på prestanda" />
+  <img width="100%" src={bildprestanda} alt="bild på home page prestanda" />
   </div>
 
   </div>

@@ -6,6 +6,11 @@ import phone from './icons/phone.png'
 import maps from './icons/maps.png'
 import linkedin from './icons/linkedin.png'
 import github from './icons/github.png'
+import homePagePrestanda from './images/prestanda98_met96_tillgSEO100.webp'
+import omMigPagePrestanda from './images/omMigSida_prestTillg98_met96_SEO100.png'
+import projectPageprestanda from './images/ProjectPage-prestMet96_tillg95_SEO100.png'
+import hobbysPagePrestanda from './images/hobbys-prestTillg95_met93_SEO100.png'
+import kontaktPagePrestanda from './images/kontaktSida_prest98_tillgSEO100_ met96.png'
 
 function Contact() {
 
@@ -71,6 +76,45 @@ function Contact() {
     </section>
     </div>
     {/* </div> */}
+    
+<article>
+    <div className="images-basic">
+      <div>
+        <img src={homePagePrestanda} alt="bild på prestanda hem sida" />
+      </div>
+      <div>
+        <img src={omMigPagePrestanda} alt="bild på prestanda om mig sida" />
+      </div>
+      <div>
+        <img src={projectPageprestanda} alt="bild på prestanda projekt sida" />
+      </div>
+      <div>
+        <img src={hobbysPagePrestanda} alt="bild på prestanda hobby sida" />
+      </div>
+      <div>
+        <img src={kontaktPagePrestanda} alt="bild på prestanda kontakt sida" />
+      </div>
+    </div>
+
+    <div class="images-leaning">
+    <div>
+        <img src={homePagePrestanda} alt="bild på prestanda hem sida" />
+      </div>
+      <div>
+        <img src={omMigPagePrestanda} alt="bild på prestanda om mig sida" />
+      </div>
+      <div>
+        <img src={projectPageprestanda} alt="bild på prestanda projekt sida" />
+      </div>
+      <div>
+        <img src={hobbysPagePrestanda} alt="bild på prestanda hobby sida" />
+      </div>
+      <div>
+        <img src={kontaktPagePrestanda} alt="bild på prestanda kontakt sida" />
+      </div>
+    </div>
+    </article>
+
 
     <style jsx>{
     `#fab {

@@ -5,11 +5,18 @@ import javascript from './icons/javascript.png'
 import gatsby from './icons/gatsby.png'
 import contentfulcms from './icons/contentfulcms.png'
 import graphql from './icons/graphql.png'
+import css from './icons/css.png'
+import html5 from './icons/html5.png'
 import { Link } from 'react-router-dom'
 import projects from './data/projects.json'
 import hobby from './data/hobbys.json'
 import { logDOM } from '@testing-library/react'
 import Hobby from './hobby'
+import homePagePrestanda from './images/prestanda98_met96_tillgSEO100.webp'
+import omMigPagePrestanda from './images/omMigSida_prestTillg98_met96_SEO100.png'
+import projectPageprestanda from './images/ProjectPage-prestMet96_tillg95_SEO100.png'
+import hobbysPagePrestanda from './images/hobbys-prestTillg95_met93_SEO100.png'
+import kontaktPagePrestanda from './images/kontaktSida_prest98_tillgSEO100_ met96.png'
 
 
 
@@ -110,7 +117,7 @@ function Hobbys() {
     </div>
     {/* <div className="hobby-portfolio"> */}
     {/* <div className="project-content-layout"> */}
-    <h1>Portfolio</h1>
+    <h1>Tidigare portfolio</h1>
     {/* </div> */}
     {/* <h2>Tidigare portfolio skapades i React - Gatsby - Contentful - GraphQL</h2> */}
     <img src="../images/portfolio_old_homepage.png" alt="" className="projects-main-image" />
@@ -136,6 +143,57 @@ function Hobbys() {
     {/* </div> */}
 
     </article>
+
+
+
+
+    <article className="hobby animated-border proj">
+    <div className="icon-container">
+    <img src={react} alt="React icon" className="rotating-image"/>
+    <img width="31px" src={html5} alt="JavaScript icon" className="rotating-icon"/>
+    <img width="31px" src={css} alt="JavaScript icon" className="rotating-icon"/>
+    {/* <img width="36px" src={gatsby} alt="React icon" className="rotating-icon" />
+    <img width="24px" src={contentfulcms} alt="Contentfulcms icon" className="rotating-icon"/>
+    <img width="35px"src={graphql} alt="GraphQL icon" className="rotating-icon" /> */}
+    </div>
+    {/* <div className="hobby-portfolio"> */}
+    {/* <div className="project-content-layout"> */}
+    <h1>Lighthouse-rapport av min portfolio</h1>
+    {/* </div> */}
+    {/* <h2>Tidigare portfolio skapades i React - Gatsby - Contentful - GraphQL</h2> */}
+
+    {/* <div className="image-prestanda"> */}
+    <div className="home-prestanda">
+  <img width="100%" src={hobbysPagePrestanda} alt="bild på home page prestanda" />
+  </div>
+    {/* <img src="../images/portfolio_old_homepage.png" alt="" className="projects-main-image" /> */}
+
+
+    {/* <img src={mainImage} "../images/vue-ewallet_all_cards.png" alt=""  */}
+    <p>
+    Jag har analyserat mina portfoliosidor med Google Lighthouse för att säkerställa hög kvalitet. Resultaten visar värden inom Prestanda, Tillgängighet, Bästa metoder och SEO.
+    </p>
+      <div className="project-links">
+        {/* <Link to='/hobby'>Visa mer</Link> */}
+
+       
+        <Link to='/hobby' state={{hobby: oldPortfolio}}>Visa mer</Link>
+
+        <a href="https://github.com/KingaSzayer-Iths/portfolio">GitHub</a>
+      </div>
+
+    {/* {hobbys.map(hobby =>
+      <div className="project-links">
+                    <Link to='/hobby' state={{hobby: hobby}}>Visa mer</Link>
+                    <a href={hobby.github}>GitHub</a>
+                    </div> 
+                  )} */}
+    {/* </div> */}
+
+    </article>
+
+
+
     </section>
     
     {/* <section className="project-groups project-list sliding-project">
