@@ -41,9 +41,9 @@ function Hobby() {
     <p>{state.hobby.longDescription}</p>
     </div>
     </div>
-    <div className="carousel-container">
+    {/*<div className="carousel-container">
   
-    <div className="carousel-images"
+     <div className="carousel-images"
     style={{transform: `translateX(-${currentIndex*100}%)`}}>
     {state.hobby.images.map((image, i) => (
         <div
@@ -51,9 +51,13 @@ function Hobby() {
             className={`carousel-image-container ${currentIndex === i ? 'active' : ''}`}
         >
         <img  src={image} alt={`Slide ${i}`} className="carousel2-image" />
+
+        
         </div>
     ))}
-    </div>
+
+    
+    </div> */}
 
     {/* <div className="carousel-images"
     style={{transform: `translateX(-${currentIndex*100}%)`}}>
@@ -66,11 +70,23 @@ function Hobby() {
     ))}
     </div> */}
     
-    <div className="carousel-controls">
+    {/* <div className="carousel-controls">
     <button className="carousel-button prev" onClick={prevSlide}>&#10094;</button>
     <button className="carousel-button next" onClick={nextSlide}>&#10095;</button>
     </div>
+    </div> */}
+
+    <div className="carousel-controls">
+      <button className="carousel-button prev" onClick={prevSlide}>&#10094;</button>
+      <button className="carousel-button next" onClick={nextSlide}>&#10095;</button>
     </div>
+    <div className="carousel-container">
+      <div className="carousel-images">
+        <img src={state.hobby.images[currentIndex]} alt="Carousel image" className="carousel-image" />
+
+      </div>
+    </div>
+
     <div id="back-button">
     <Link  to="/hobbys"><img width="32px" src={arrowUp} alt="Back button " />Back</Link>
     </div>

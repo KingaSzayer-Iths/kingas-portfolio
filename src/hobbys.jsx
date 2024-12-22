@@ -50,8 +50,24 @@ function Hobbys() {
           "./images/old_portfolio_oversikt.webp"
       ],
       "mainImage": "./images/portfolio_old_homepage.webp",
-      "github": "https://github.com/KingaSzayer-Iths/e-wallet"
+      "github": "https://github.com/KingaSzayer-Iths/portfolio"
+      
   }
+
+  let lighthouse = {
+    "name":"Lighthouse",
+    "shortDescription":"React",
+    "longDescription":"Analys av mina portfoliosidor med Google Lighthouse.",
+    "images": [
+      "./images/prestanda98_met96_tillgSEO100.webp",
+      "./images/omMigSida_prestTillg98_met96_SEO100.png",
+      "./images/ProjectPage-prestMet96_tillg95_SEO100.png",
+      "./images/hobbys-prestTillg95_met93_SEO100.png",
+        "./images/kontaktSida_prest98_tillgSEO100_ met96.png"
+    ],
+    "mainImage": "./images/hobbys-prestTillg95_met93_SEO100.png",
+    "github": "https://github.com/KingaSzayer-Iths/portfolio"
+}
 
   return <>
   <div className="skill-hobby">
@@ -164,7 +180,7 @@ function Hobbys() {
 
     {/* <div className="image-prestanda"> */}
     <div className="home-prestanda">
-  <img width="100%" src={hobbysPagePrestanda} alt="bild på home page prestanda" />
+  <img width="100%" src={lighthouse.mainImage} alt="bild på home page prestanda" />
   </div>
     {/* <img src="../images/portfolio_old_homepage.png" alt="" className="projects-main-image" /> */}
 
@@ -177,7 +193,7 @@ function Hobbys() {
         {/* <Link to='/hobby'>Visa mer</Link> */}
 
        
-        <Link to='/hobby' state={{hobby: oldPortfolio}}>Visa mer</Link>
+        <Link to='/hobby' state={{hobby: lighthouse}}>Visa mer</Link>
 
         <a href="https://github.com/KingaSzayer-Iths/portfolio">GitHub</a>
       </div>

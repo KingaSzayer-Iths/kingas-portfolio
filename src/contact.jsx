@@ -80,37 +80,37 @@ function Contact() {
 <article>
     <div className="images-basic">
       <div>
-        <img src={homePagePrestanda} alt="bild på prestanda hem sida" />
+        <img src={homePagePrestanda} alt="Bild på prestanda hem sida" />
       </div>
       <div>
-        <img src={omMigPagePrestanda} alt="bild på prestanda om mig sida" />
+        <img src={omMigPagePrestanda} alt="Bild på prestanda om mig sida" />
       </div>
       <div>
-        <img src={projectPageprestanda} alt="bild på prestanda projekt sida" />
+        <img src={projectPageprestanda} alt="Bild på prestanda projekt sida" />
       </div>
       <div>
-        <img src={hobbysPagePrestanda} alt="bild på prestanda hobby sida" />
+        <img src={hobbysPagePrestanda} alt="Bild på prestanda hobby sida" />
       </div>
       <div>
-        <img src={kontaktPagePrestanda} alt="bild på prestanda kontakt sida" />
+        <img src={kontaktPagePrestanda} alt="Bild på prestanda kontakt sida" />
       </div>
     </div>
 
     <div class="images-leaning">
     <div>
-        <img src={homePagePrestanda} alt="bild på prestanda hem sida" />
+        <img src={homePagePrestanda} alt="Bild på prestanda hem sida" />
       </div>
       <div>
-        <img src={omMigPagePrestanda} alt="bild på prestanda om mig sida" />
+        <img src={omMigPagePrestanda} alt="Bild på prestanda om mig sida" />
       </div>
       <div>
-        <img src={projectPageprestanda} alt="bild på prestanda projekt sida" />
+        <img src={projectPageprestanda} alt="Bild på prestanda projekt sida" />
       </div>
       <div>
-        <img src={hobbysPagePrestanda} alt="bild på prestanda hobby sida" />
+        <img src={hobbysPagePrestanda} alt="Bild på prestanda hobby sida" />
       </div>
       <div>
-        <img src={kontaktPagePrestanda} alt="bild på prestanda kontakt sida" />
+        <img src={kontaktPagePrestanda} alt="Bild på prestanda kontakt sida" />
       </div>
     </div>
     </article>

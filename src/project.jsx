@@ -51,24 +51,19 @@ function Project() {
 
   </div>
 
-  <div className="carousel-controls">
-  <button className="carousel-button prev" onClick={prevSlide}>&#10094;</button>
-  <button className="carousel-button next" onClick={nextSlide}>&#10095;</button>
-  </div>
-  <div className="carousel-container">
-  {/* <button className="carousel-button prev" onClick={prevSlide}>&#10094;
-  </button> */}
+    <div className="carousel-controls">
+      <button className="carousel-button prev" onClick={prevSlide}>&#10094;</button>
+      <button className="carousel-button next" onClick={nextSlide}>&#10095;</button>
+    </div>
+    <div className="carousel-container">
+      <div className="carousel-images">
+        <img src={state.project.images[currentIndex]} alt="Carousel image" className="carousel-image" />
 
-  <div className="carousel-images">
-  {/* {state.project.images.map(bild => <img height="100px" width="100px" src={bild[currentIndex]} alt="" />)} */}
-  <img src={state.project.images[currentIndex]} alt="Carousel image" className="carousel-image" />
-  {/* <Picture {...state.project.images[currentIndex]} /> */}
-  </div>
-  </div>
-
-  <div id="back-button">
-  <Link  to="/projects"><img width="32px" src={arrowUp} alt="Back button " />Back</Link>
-  </div>
+      </div>
+    </div>
+    <div id="back-button">
+      <Link to="/projects"><img width="32px" src={arrowUp} alt="Back button " />Back</Link>
+    </div>
 
   <style jsx>{
     `#fab {
