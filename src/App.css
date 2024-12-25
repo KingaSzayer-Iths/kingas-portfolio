@@ -1334,13 +1334,13 @@ ul {
 
 .carousel-image-container {
   perspective: 500px;
-  width: 100%;
+  max-width: 100%;
   max-height: 750px;
   flex-shrink: 0;
 }
 
 .carousel2-image {
-  width: 100%;
+  max-width: 100%;
   max-height: 750px;
   transform-origin: left;
   transition: transform 0.6s ease;
@@ -1369,7 +1369,7 @@ ul {
 
 .carousel-image {
   max-height: 750px;
-  width: 100%;
+  max-width: 100%;
   /* max-width: 100%; */
   margin: 0 5px}
 

@@ -41,9 +41,9 @@ function Hobby() {
     <p>{state.hobby.longDescription}</p>
     </div>
     </div>
-    {/*<div className="carousel-container">
+    {/* <div className="carousel-container"> */}
   
-     <div className="carousel-images"
+     {/* <div className="carousel-images"
     style={{transform: `translateX(-${currentIndex*100}%)`}}>
     {state.hobby.images.map((image, i) => (
         <div
