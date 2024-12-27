@@ -12,6 +12,7 @@ import projectPageprestanda from './images/ProjectPage-prestMet96_tillg95_SEO100
 import hobbysPagePrestanda from './images/hobbys-prestTillg95_met93_SEO100.png'
 import kontaktPagePrestanda from './images/kontaktSida_prest98_tillgSEO100_ met96.png'
 
+
 function Contact() {
 
   const mail = "kingaszayer@gmail.com";
@@ -78,7 +79,7 @@ function Contact() {
     {/* </div> */}
     
 <article>
-    <div className="images-basic">
+    {/* <div className="images-basic">
       <div>
         <img src={homePagePrestanda} alt="Bild på prestanda hem sida" />
       </div>
@@ -94,12 +95,12 @@ function Contact() {
       <div>
         <img src={kontaktPagePrestanda} alt="Bild på prestanda kontakt sida" />
       </div>
-    </div>
+    </div> */}
 
     <div class="images-leaning">
-    <div>
+    {/* <div>
         <img src={homePagePrestanda} alt="Bild på prestanda hem sida" />
-      </div>
+      </div> */}
       <div>
         <img src={omMigPagePrestanda} alt="Bild på prestanda om mig sida" />
       </div>
@@ -114,6 +115,22 @@ function Contact() {
       </div>
     </div>
     </article>
+
+    {/* <div class="images-leaning">
+    
+      <div>
+        <img src='./images/eleanor.jpg' alt="Bild på prestanda om mig sida" />
+      </div>
+      <div>
+        <img src='./images/chidi.jpg' alt="Bild på prestanda projekt sida" />
+      </div>
+      <div>
+        <img src='./images/tahani.jpg' alt="Bild på prestanda hobby sida" />
+      </div><div>
+        <img src={kontaktPagePrestanda} alt="Bild på prestanda kontakt sida" />
+      </div>
+    </div> 
+    </article>*/}
 
 
     <style jsx>{
